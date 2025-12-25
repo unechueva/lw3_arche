@@ -1,0 +1,9 @@
+# C++ build
+/build/
+/*.o
+/*.exe
+/*.out
+
+# OS files
+.DS_Store
+*.swp
