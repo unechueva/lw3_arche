@@ -32,3 +32,4 @@ bool write_file(const std::string& filename, const std::vector<int>& results) {
     file.close();
     return true;
 }
+
