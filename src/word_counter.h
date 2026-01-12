@@ -3,6 +3,6 @@
 
 #include <string>
 
-int countWords(const std::string& line);
+int count_words(const std::string& line);
 
 #endif 

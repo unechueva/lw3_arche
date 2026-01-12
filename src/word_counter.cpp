@@ -1,7 +1,7 @@
 #include "word_counter.h"
 #include <cctype>
 
-int countWords(const std::string& line) {
+int count_words(const std::string& line) {
     if (line.empty()) {
         return 0;
     }
