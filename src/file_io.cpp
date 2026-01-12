@@ -2,7 +2,7 @@
 #include <fstream>
 
 bool read_file(const std::string& filename, std::vector<std::string>& lines) {
-    lines.clear();  // Очищаем вектор перед чтением
+    lines.clear();  
     std::ifstream file(filename);
     
     if (!file.is_open()) {
@@ -26,7 +26,7 @@ bool write_file(const std::string& filename, const std::vector<int>& results) {
     }
     
     for (size_t i = 0; i < results.size(); ++i) {
-        file << "Строка " << (i + 1) << ": " << results[i] << "\n";  // Заменяем endl на \n
+        file << "Строка " << (i + 1) << ": " << results[i] << "\n";  
     }
     
     file.close();
